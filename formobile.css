@@ -1,0 +1,80 @@
+@media (max-width:390px){
+    .logopart{
+        width: 100%;
+    }
+    .birth-date {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .birth-date{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .birth-date a{
+        margin: 10px 0px;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        float: none;
+    }
+    .loginpart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    .loginpart label {
+        width: 90%;
+        display: block;
+    }
+    .loginpart input[type="text"],
+    .loginpart input[type="password"]{
+        width: 90%;
+    }
+    .loginpart input[type="email"]{
+        width: 90%;
+    }
+    .btn input{
+        margin-top: 10px;
+    }
+}
+@media (max-width:800px){
+   .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .logopart{
+    margin: 0 auto;
+   }
+   .loginpart{
+    margin: 0 auto;
+    float: none;
+   }
+   .btn input{
+    margin-top:20px;
+   }
+   .left-area{
+    width: 100%;
+    text-align: center;
+   }
+   .right-area{
+    width: 100%;
+   }
+   .name2{
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .name2 .first-name{
+    width: 48%;
+   }
+   .name2 .last-name{
+    width: 48%;
+}
+}

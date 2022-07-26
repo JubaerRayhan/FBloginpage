@@ -1,0 +1,234 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header starts here*/
+header{
+    background-color:#3C5B9A;
+    padding: 5px 0px;
+}
+.logopart img{
+    width: 200px;
+    height: auto;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+.loginpart{
+    color: white;
+    width: 65%;
+    float: right;
+    display: flex;
+}
+.logopart{
+    width: 35%;
+}
+.loginpart label{
+    font-size: 12px;
+}
+.name input{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.password input{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.password a{
+    text-decoration: none;
+    color:#9cb4d8;
+    font-size: 12px;
+}
+.password a:hover{
+    text-decoration: underline;
+}
+.btn input{
+    padding: 3px 10px;
+    margin-top: 25px;
+    margin-right: 0px;
+    font-size: 12px;
+    background-color: #4267b2;
+    color: white;
+    border: 1px solid #29487d;
+}
+.btn input:hover{
+    background-color: #29487d;
+}
+/*header ends here*/
+/* body starts here*/
+.sign-area{
+    width: 65%;
+    margin: 0 auto;
+}
+section{
+    background: linear-gradient(#fff ,#cbd0e1);
+}
+.sign-area::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.left-area p{
+    font-size: 18px;
+    margin:10px 5px;
+    padding:10px;
+    color: #272d38;
+    font-weight: bold;
+}
+.left-area img{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+.right-area{
+    width: 45%;
+    float: left;
+    margin: 10px 0px;
+}
+.right-area h1{
+    font-size: 32px;
+    color: #333;
+
+}
+.right-area h4{
+    font-size: 18px;
+    color: #1d2129;
+    margin: 10px 0px;
+}
+.right-area input[type="text"], .right-area input[type="password"]{
+    width: 100%;
+    border: 1px solid #1d2129;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 8px;
+    margin: 3px 0px;
+}
+.name2{
+    display: flex;
+}
+.first-name{
+    margin-right: 5px;
+}
+.last-name{
+    margin-left: 5px;
+}
+.birthday h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.birth-date{
+    display: flex;
+    height: 30px;
+}
+.birth-date a{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.birth-date a:hover{
+    text-decoration: underline;
+}
+.sex{
+    font-size: 16px;
+    margin: 8px 0px;
+    color: #1d2129;
+    font-weight: bold;
+}
+.text{
+    width: 90%;
+    font-size: 14px;
+}
+.text a{
+    text-decoration: none;
+    color: #3C5B9A;
+    font-weight: bold;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.btn2 input{
+    background-color: #4d8f3c;
+    color: white;
+    border: none;
+    min-width:130px;
+    border: 1px solid #3a5633;
+    padding: 5px 10px;
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn2 input:hover{
+    background-color: #1f710a;
+}
+.message{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.message a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3C5B9A;
+}
+.message a:hover{
+    text-decoration: underline;
+}
+/* body ends here*/
+/*footer starts here*/
+footer{
+    width: 65%;
+    margin: 0 auto;
+}
+.footer-area ul li{
+    display: inline;
+    list-style-type: none;
+}
+.footer-area .top{
+    margin: 10px 0px;
+}
+.footer-area .middle{
+    margin: 10px 0px;
+}
+.footer-area ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #365899;
+}
+.footer-area .top ul ,li {
+    margin-right: 6px;
+}
+.footer-area .middle ul, li {
+    margin-right: 10px;
+}
+.footer-area .top i{
+    border: 1px solid #272d38;
+    padding: 2px 4px;
+    background-color: #CCD1E1;
+}
+.bottom{
+    color: #737373;
+}
+/*footer ends here*/
